@@ -6,7 +6,7 @@ namespace LibrarySystem
 {
     class Book
     {
-        public int BookID { get; set; }
+        public int BookID { get; private set; }
         public string ISBN { get; set; }
         public string Author { get; set; }
         public string BookName { get; set; }
